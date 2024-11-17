@@ -6,5 +6,5 @@ while a != len(my_list):
         a = a + 1
     elif my_list[a] == 0:
         a = a + 1
-    elif my_list[a] <= 0:
+    else:
         break
