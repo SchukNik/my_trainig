@@ -12,7 +12,6 @@ data_structure = [
 
 ]
 
-
 def calculate_structure_sum(*args):
     summa = 0
     for i in args:
@@ -30,7 +29,6 @@ def calculate_structure_sum(*args):
             summa += calculate_structure_sum(*i.keys())
             summa += calculate_structure_sum(*i.values())
     return summa
-
 
 result = calculate_structure_sum(*data_structure)
 print(result)
