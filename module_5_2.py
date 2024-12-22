@@ -7,7 +7,7 @@ class House:
         return self.number_of_floors
 
     def __str__(self):
-        return self.name
+        return f'Название: {self.name}, кол-во этажей: {self.number_of_floors}'
 
     def go_to(self, new_floor):
         if new_floor > self.number_of_floors or new_floor < 1:
