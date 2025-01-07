@@ -1,6 +1,4 @@
 import random
-from mimetypes import inited
-
 
 class Animal:
     live = True
